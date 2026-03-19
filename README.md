@@ -1,8 +1,7 @@
-# 🛒 E-commerce Automation Framework (Playwright + Pytest)
+# 🛒 Playwright E-commerce Automation Framework
 
 ## 📌 Overview
-This project is a scalable automation testing framework built using Python, Playwright, and Pytest.  
-It follows Page Object Model (POM) design and supports end-to-end testing of an e-commerce workflow.
+A scalable test automation framework built using Python, Playwright, and Pytest following Page Object Model (POM) design with CI/CD integration.
 
 ---
 
@@ -45,7 +44,7 @@ ecommerce-automation/
 
 ### 1. Clone Repository
 git clone https://github.com/deepthapa3431/E-commerce-Automation-Framework-Playwright-Pytest-.git
-cd ecommerce-automation
+cd E-commerce-Automation-Framework-Playwright-Pytest-
 
 ### 2. Create Virtual Environment
 python -m venv venv
