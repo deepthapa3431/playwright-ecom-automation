@@ -1,15 +1,9 @@
 # 🛒 Playwright E-commerce Automation Framework
 
 ## 📌 Overview
-<<<<<<< HEAD
 A scalable test automation framework built using Python, Playwright, and Pytest following Page Object Model (POM) design with CI/CD integration.
-=======
-
-This project is a **scalable UI automation framework** built using Python, Playwright, and Pytest.
 
 It follows the **Page Object Model (POM)** design pattern and supports **end-to-end testing of an e-commerce workflow**, including login, cart operations, and checkout.
->>>>>>> 90fdd71 (Fix CI issue, improve conftest, enhance README)
-
 ---
 
 ## 🚀 Features
@@ -57,13 +51,11 @@ ecommerce-automation/
 ### 1. Clone Repository
 git clone https://github.com/deepthapa3431/E-commerce-Automation-Framework-Playwright-Pytest-.git
 cd E-commerce-Automation-Framework-Playwright-Pytest-
-=======
 
 ```
 git clone https://github.com/deepthapa3431/playwright-ecom-automation.git
 cd ecom-auto
 ```
-(Fix CI issue, improve conftest, enhance README)
 
 ### 2. Create Virtual Environment
 
@@ -115,8 +107,6 @@ pytest
 * HTML report generated after execution
 * Screenshots captured automatically on failure
 
-> Tip: Add a screenshot of the HTML report here to improve project presentation.
-
 ---
 
 ## 🔄 CI/CD Integration
@@ -127,8 +117,6 @@ This project uses **GitHub Actions** to:
 * Execute tests in parallel
 * Generate HTML reports
 * Upload artifacts (reports and screenshots)
-
-> Tip: Add a GitHub Actions badge here once your pipeline is stable.
 
 ---
 
@@ -154,7 +142,6 @@ This project uses **GitHub Actions** to:
 ## 🚀 Future Enhancements
 
 * Integrate Allure reporting
-* Add API + UI hybrid testing
 * Dockerize test execution
 * Implement test data management strategy
 
@@ -192,8 +179,4 @@ Example APIs tested:
 ---
 
 ## 👨‍💻 Author
-<<<<<<< HEAD
-=======
-
->>>>>>> 90fdd71 (Fix CI issue, improve conftest, enhance README)
 Deep Thapa
