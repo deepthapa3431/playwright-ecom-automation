@@ -19,14 +19,29 @@ jobs:
       with:
         python-version: '3.12'
 
+    # ✅ Install dependencies
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
+        playwright install --with-deps
 
-    - name: Install Playwright Browsers
-      run: |
-        playwright install
-
+    # ✅ Run tests
     - name: Run tests
       run: |
         pytest -n 2 --html=report.html --self-contained-html
+      env:
+        HEADLESS: true
+
+    # ✅ Upload HTML report
+    - name: Upload HTML Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: pytest-report
+        path: report.html
+
+    # ✅ Upload screenshots (failure debugging)
+    - name: Upload Screenshots
+      uses: actions/upload-artifact@v4
+      with:
+        name: screenshots
+        path: screenshots/
